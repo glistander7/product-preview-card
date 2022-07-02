@@ -1,0 +1,32 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  margin-top: 200px;
+  width: 1440px;
+}
+
+.left {
+  margin-left: -5rem;
+}
+
+.left img {
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+.right {
+  background-color: antiquewhite;
+  height: 900px;
+  width: 600px;
+}
