@@ -1,5 +1,6 @@
 html {
   font-family: 'Montserrat', sans-serif;
+  background-color: antiquewhite;
 }
 
 body {
@@ -21,12 +22,35 @@ body {
 }
 
 .left img {
+  height: 900px;
+  width: 600px;
   border-top-left-radius: 2%;
   border-bottom-left-radius: 2%;
 }
 
 .right {
-  background-color: antiquewhite;
+  background-color: hsl(0, 0%, 100%);
   height: 900px;
   width: 600px;
+  border-bottom-right-radius: 2%;
+  border-top-right-radius: 2%;
+}
+
+h3 {
+  font-size: 2em;
+  color: hsl(228, 12%, 48%);
+}
+
+h2 {
+  font-size: 3em;
+  align-items: center;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+}
+
+.price {
+  display: flex;
+  gap: 5px;
 }
